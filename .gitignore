@@ -1,0 +1,37 @@
+# Node.js
+## ログ
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## ランタイムデータ
+pids
+*.pid
+*.seed
+*.pid.lock
+
+## ディレクトリ
+**/node_modules/
+**/dist/
+
+## その他
+*.DS_Store
+.env
+.env.test
+.env.production
+.cache
+.next
+coverage/
+
+# バックエンド特有
+backend/tmp
+
+# フロントエンド特有
+frontend/.next/
+frontend/out/
+
+# Docker
+**/docker-compose*.yml
+
